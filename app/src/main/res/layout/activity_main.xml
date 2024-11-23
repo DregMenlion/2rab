@@ -34,5 +34,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/hellotext"
         app:srcCompat="@drawable/scale_1200" />
+    <Button
+        android:id="@+id/navigateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="О разработчике"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/startbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="navigateToAnotherPage" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
